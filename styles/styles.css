@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+}
+
+button{
+  border: none;
+  padding: 1em 2em;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+
+/* ===typography=== */
+h1{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 1.8rem;
+  font-weight: 500;
+  
+}
+
+p{
+  font-size: 1.2rem;
+  margin-bottom: 2em;
+}
+
+/* navigation */
+nav ul{
+  padding: 0;
+  gap: em;
+}
+
+nav li{
+  list-style: none;
+  margin-bottom: .5em;
+}
+
+nav a{
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+nav a:hover,
+nav a:focus{
+  color: #2e84bf;
+}
+.current-page{
+  color: #2e84bf;
+}
+
+.header-logo-text{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.section-1-title{
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: .2em 0;
+}
+.section-1-subtitle{
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: .2em;
+}
+
+
+
+/* ===layout=== */
+header{
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 1em 0;
+  border-bottom: 1px rgba(128, 128, 128, 0.1) solid;
+}
+
+.left-section{
+  margin-bottom: 1em;
+}
+.left-section span{
+  display: block;
+}
+
+.header-logo{
+  height: 2.2rem;
+}
+
+
+/* content */
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* section 1 */
+.section-1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px rgba(128, 128, 128, 0.1) solid;
+  padding: 2em 0;
+}
+
+.section-1-logo{
+  order: -1;
+  width: 30%;
+}
+
+.btns-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.download-btn,
+.user-guide-btn{
+  width: 47.5%;
+  color: #fff;
+}
+.download-btn{
+  background-color: #2e84bf;
+}
+.user-guide-btn{
+  background-color: #476582;
+}
+
+/* section-2 */
+.section-2{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px rgba(128, 128, 128, 0.1) solid;
+  padding: 1em 2em;
+}
+
+.section-2-images{
+  box-shadow: 0 0 4px black;
+}
+
+.section-2-columns{
+  margin-bottom: 3em;
+}
+.section-2-columns:last-child{
+  margin-bottom: 0;
+}
+
+/* footer */
+
+.copyright-text{
+  margin: 1em 2em;
+}
